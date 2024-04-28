@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  
+  <div id="container">
+    <div class="input-box">
+      <input type="text" id="display">
+    </div>
+    <div class="button-box">
+      <input type="button" value="7" onclick="getTheData(7)">
+      <input type="button" value="8" onclick="getTheData(8)">
+      <input type="button" value="9" onclick="getTheData(9)">
+      <input type="button" value="+" onclick="getTheData('+')">
+    </div>
+    <div class="button-box">
+      <input type="button" value="4" onclick="getTheData(4)">
+      <input type="button" value="5" onclick="getTheData(5)">
+      <input type="button" value="6" onclick="getTheData(6)">
+      <input type="button" value="-" onclick="getTheData('-')">
+    </div>
+    <div class="button-box">
+      <input type="button" value="1" onclick="getTheData(1)">
+      <input type="button" value="2" onclick="getTheData(2)">
+      <input type="button" value="3" onclick="getTheData(3)">
+      <input type="button" value="/" onclick="getTheData('/')">
+    </div>
+    <div class="button-box">
+      <input type="button" value="0" onclick="getTheData(0)">
+      <input type="button" value="." onclick="getTheData('.')">
+      <input type="button" value="*" onclick="getTheData('*')">
+      <input type="button" value="=" onclick="getTheData('=')">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+ </body>
+ </html>
