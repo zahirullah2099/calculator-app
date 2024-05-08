@@ -7,23 +7,47 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    background: linear-gradient(45deg,#9e1a76,#cd4717);
 }
 #container{  
-    padding: 10px;
+    padding: 25px 25px;
     background-color: black;
     border-radius: 10px;
  }
  #container .input-box input{
-    padding: 10px;
-    text-align: right;
+  padding: 10px;  
+  border-radius: 5px;
+  font-size: 16px; 
+  text-align: right;
+  border: none; 
+  margin-bottom: 10px;
+  background-color: #989494;
+ } 
+ #container .input-box input:focus{ 
+   outline: none;
  }
- #container .button-box{
+ #container.button-box{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
+ }
+ #container .button-box input #btn{
+   background-color: rgb(202, 194, 85);
+   padding: 10px;
  }
  #container .button-box input{
-    padding: 10px;
+    padding: 15px;
+    margin: 5px;
     border-radius: 8px;
     border: none;
- }
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: all ease .5s;
+    box-shadow: rgba(209, 209, 212, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; 
+   }
+ #container .button-box input:hover{
+      background-color: whitesmoke;
+      color: black;
+     }
